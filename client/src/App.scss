@@ -1,0 +1,191 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap';
+
+* {
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: url('/fon.jpg') center/cover fixed no-repeat;
+
+  background-size: 100% 100vh;
+  min-height: 100vh;
+  backdrop-filter: blur(5px);
+}
+
+.home {
+  padding: 24px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgba(145, 145, 145, 0.747);
+}
+
+.hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  // backdrop-filter: blur(10px);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.1);
+}
+.hero__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 24px;
+}
+.hero__label {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.hero__title {
+  font-size: 52px;
+  margin: 8px 0;
+  font-weight: 700;
+}
+.hero__date {
+  opacity: 0.9;
+  margin: 40px;
+}
+.hero__intro {
+  opacity: 0.95;
+  margin-bottom: 18px;
+}
+.hero__scroll {
+  display: inline-block;
+  margin-top: 14px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(70px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0 18px;
+}
+.countdown__item {
+  background: rgb(133 133 133 / 35%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+.countdown__item span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+.countdown__item small {
+  opacity: 0.9;
+}
+
+.location {
+  margin-top: 10px;
+}
+.location__place {
+  font-weight: 700;
+}
+.location__addr {
+  opacity: 0.95;
+}
+
+.hero__text h1 {
+  font-size: 44px;
+  margin: 0 0 8px 0;
+}
+
+.hero__text p {
+  font-size: 18px;
+  color: #444;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.calendar-section {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px 0;
+  color: #fff;
+}
+
+.calendar-section h1 {
+  text-align: center;
+}
+
+.calendar-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.calendar {
+  display: grid;
+  gap: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.calendar__week,
+.calendar__row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.calendar__week span,
+.calendar__row span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.calendar__week span {
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.calendar__day--accent {
+  background: #c94e4e !important;
+  border-color: #c94e4e !important;
+  box-shadow: 0 0 0 2px rgba(201, 78, 78, 0.35);
+  font-weight: 700;
+}
+
+.location-block {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-block h1 {
+  font-size: 44px;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
