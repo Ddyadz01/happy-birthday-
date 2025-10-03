@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap';
 * {
   box-sizing: border-box;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
@@ -15,7 +16,6 @@ button {
 body {
   margin: 0;
 
-  font-style: italic;
   color: #fff;
   background: url('/fon.jpg') center/cover fixed no-repeat;
 
@@ -51,10 +51,10 @@ body {
   opacity: 0.85;
   font-size: 20px;
   letter-spacing: 8px;
-  font-weight: 700;
+  font-weight: 100;
 }
 .hero__title {
-  font-size: 35px;
+  font-size: 30px;
   margin: 8px 0;
   font-weight: 700;
 
@@ -68,9 +68,9 @@ body {
 .hero__intro {
   opacity: 0.95;
   margin-bottom: 18px;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 3.2px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .hero__scroll {
   display: inline-block;
