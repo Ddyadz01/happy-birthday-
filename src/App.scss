@@ -19,7 +19,7 @@ body {
   color: #fff;
   background: url('/fon.jpg') center/cover fixed no-repeat;
 
-  background-size: 100% 100vh;
+  background-size: cover;
   min-height: 100vh;
   backdrop-filter: blur(5px);
 }
