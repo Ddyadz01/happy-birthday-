@@ -36,13 +36,13 @@ export default function App() {
       <section className="hero">
         <div className="hero__content">
           <p className="hero__label">ПРИГЛАШЕНИЕ</p>
-          <h1 className="hero__title">День рождения Армена</h1>
+          <h1 className="hero__title">День рождения</h1>
 
           <p className="hero__intro">
-            Дорогие друзья! Приглашаем вас на день рождения нашего сына, Армена, которому
+            Дорогие друзья! Приглашаем Вас на день рождения нашего сына, Армена, которому
             исполняется 1 год!
           </p>
-          <img src="armen.jpg" alt="" />
+          <img src="armen2.jpg" alt="" />
           <h3 className="hero__date">25.10.2025 · 17:00</h3>
           <div className="countdown">
             <div className="countdown__item">
@@ -132,8 +132,8 @@ export default function App() {
         <h1 className="hero__title">Сохраните место</h1>
         <div className="location">
           <h2 className="location__place">Ресторан «Татев»</h2>
-          <h4 className="location__addr">Адрес: д. Путилково, 11, стр. 17</h4>
           <h3 className="location__place_two">Сбор гостей в 17:00</h3>
+          <h4 className="location__addr">Адрес: д. Путилково, 11, стр. 17</h4>
 
           <img src="restoran.webp" alt="" />
           <div className="navigator">

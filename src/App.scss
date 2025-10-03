@@ -54,9 +54,10 @@ body {
   font-weight: 100;
 }
 .hero__title {
-  font-size: 30px;
+  font-size: 45px;
   margin: 8px 0;
   font-weight: 700;
+  letter-spacing: 2.2px;
 }
 .hero__date {
   opacity: 0.9;
@@ -66,9 +67,9 @@ body {
 .hero__intro {
   opacity: 0.95;
   margin-bottom: 18px;
-  font-size: 21px;
-  letter-spacing: 3.2px;
-  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 2.2px;
+  font-weight: 700;
 }
 .hero__scroll {
   display: inline-block;
@@ -221,12 +222,15 @@ body {
 
 .location__place {
   font-weight: 700;
+  font-size: 32px;
 }
 
 .location__addr {
   font-weight: 500;
+  font-size: 24px;
 }
 
 .location__place_two {
   font-weight: 400;
+  font-size: 32px;
 }
