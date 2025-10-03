@@ -1,14 +1,21 @@
-@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap';
-
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&display=swap');
 * {
   box-sizing: border-box;
-
+  font-family: 'Pacifico', cursive;
   text-align: center;
+}
+
+button {
+  // text-transform: uppercase;
+  font-weight: 100 !important;
+  font-size: 20px !important;
+  letter-spacing: 2px;
 }
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+
+  font-style: italic;
   color: #fff;
   background: url('/fon.jpg') center/cover fixed no-repeat;
 
@@ -44,17 +51,19 @@ body {
   opacity: 0.85;
 }
 .hero__title {
-  font-size: 52px;
+  font-size: 35px;
   margin: 8px 0;
   font-weight: 700;
 }
 .hero__date {
   opacity: 0.9;
   margin: 40px;
+  font-size: 26px;
 }
 .hero__intro {
   opacity: 0.95;
   margin-bottom: 18px;
+  font-size: 27px;
 }
 .hero__scroll {
   display: inline-block;
@@ -86,12 +95,6 @@ body {
   opacity: 0.9;
 }
 
-.location {
-  margin-top: 10px;
-}
-.location__place {
-  font-weight: 700;
-}
 .location__addr {
   opacity: 0.95;
 }
@@ -169,10 +172,13 @@ body {
 }
 
 .calendar__day--accent {
-  background: #c94e4e !important;
-  border-color: #c94e4e !important;
-  box-shadow: 0 0 0 2px rgba(201, 78, 78, 0.35);
+  background: #f3856a !important;
   font-weight: 700;
+}
+
+.prev-day {
+  background-color: #999999 !important;
+  color: #dbdbdb;
 }
 
 .location-block {
@@ -184,8 +190,26 @@ body {
   align-items: center;
 }
 
-.location-block h1 {
-  font-size: 44px;
-  margin: 0 0 8px 0;
-  text-align: center;
+.location img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.location button {
+  background-color: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin: 20px 0;
+}
+
+.location__place,
+.location__addr {
+  font-weight: 100;
 }
