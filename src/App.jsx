@@ -1,5 +1,7 @@
 import './App.scss'
 import { useEffect, useRef, useState } from 'react'
+import { CircularProgressbarWithChildren } from 'react-circular-progressbar'
+import 'react-circular-progressbar/dist/styles.css'
 
 const TARGET_DATE = 'October 25, 2025 17:00:00'
 
@@ -46,7 +48,22 @@ export default function App() {
               танцев. <br /> С любовью, родители Армена.
             </p>
           </p>
-          <img src="armen2.jpg" alt="" />
+          <CircularProgressbarWithChildren
+            styles={{
+              path: {
+                stroke: `#fff`,
+                strokeWidth: '4px',
+              },
+              trail: {
+                // Trail color
+                stroke: '#fff',
+                strokeWidth: '4px',
+              },
+            }}
+          >
+            <img src="armen2.jpg" alt="" />
+          </CircularProgressbarWithChildren>
+
           <h3 className="hero__date">25.10.2025 · 17:00</h3>
           <div className="countdown">
             <div className="countdown__item">
