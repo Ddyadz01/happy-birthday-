@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
   box-sizing: border-box;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
   text-align: center;
 }
 
@@ -54,6 +54,8 @@ body {
   font-size: 35px;
   margin: 8px 0;
   font-weight: 700;
+
+  letter-spacing: 4px;
 }
 .hero__date {
   opacity: 0.9;
@@ -64,6 +66,7 @@ body {
   opacity: 0.95;
   margin-bottom: 18px;
   font-size: 27px;
+  letter-spacing: 3px;
 }
 .hero__scroll {
   display: inline-block;
