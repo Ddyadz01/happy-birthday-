@@ -42,6 +42,7 @@ export default function App() {
             Дорогие друзья! Приглашаем вас на день рождения нашего сына, Армена, которому
             исполняется 1 год!
           </p>
+          <img src="armen.jpg" alt="" />
           <h3 className="hero__date">25.10.2025 · 17:00</h3>
           <div className="countdown">
             <div className="countdown__item">
