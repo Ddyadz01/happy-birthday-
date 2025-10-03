@@ -137,7 +137,7 @@ export default function App() {
           <img src="restoran.webp" alt="" />
           <div className="navigator">
             <a
-              href="https://yandex.ru/maps/?rtext=~55.861509  37.397530"
+              href="https://yandex.ru/maps/?rtext=~55.861509,  37.397530"
               target="_blank"
               className="uk-button uk-button-primary"
             >
