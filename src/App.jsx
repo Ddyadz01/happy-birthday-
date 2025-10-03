@@ -132,7 +132,7 @@ export default function App() {
         <div className="location">
           <h2 className="location__place">Ресторан «Татев»</h2>
           <h4 className="location__addr">Адрес: д. Путилково, 11, стр. 17</h4>
-          <h3 className="location__place">Сбор гостей в 17:00</h3>
+          <h3 className="location__place_two">Сбор гостей в 17:00</h3>
 
           <img src="restoran.webp" alt="" />
           <div className="navigator">

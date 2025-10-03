@@ -216,7 +216,14 @@ body {
   margin: 20px 0;
 }
 
-.location__place,
+.location__place {
+  font-weight: 700;
+}
+
 .location__addr {
-  font-weight: 100;
+  font-weight: 500;
+}
+
+.location__place_two {
+  font-weight: 400;
 }
